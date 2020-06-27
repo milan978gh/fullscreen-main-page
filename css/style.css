@@ -6,3 +6,42 @@
     text-decoration: none;
     list-style: none;
 }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #60992d;
+    line-height: 1.6;
+}
+#showcase{
+    background: url('../img/main-bg.jpg') no-repeat center center / cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+#showcase h1{
+    font-size: 50px;
+    text-shadow: 2px 2px 5px #000;
+    line-height: 1.1;
+}
+#showcase p{
+    font-size: 20px;
+    background: #002400;
+    padding: 2px 30px;
+    border-radius: 5px;
+}
+#showcase .button{
+    font-size: 18px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 2px 30px;
+    margin-top: 2rem;
+    transition: all .3s;
+}
+#showcase .button:hover{
+    background: #60992d;
+}
