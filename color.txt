@@ -1,5 +1,0 @@
-#002400 dark green
-#d68c45 persian orange
-#60992d olive drab 3
-#1b1b1b eerie black
-#8e9aaf manate e
