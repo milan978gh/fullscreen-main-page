@@ -13,6 +13,11 @@ body{
     color: #60992d;
     line-height: 1.6;
 }
+img{
+    display: block;
+    width: 28vw;
+    margin: 20px auto;
+}
 
 /* showcase */
 #showcase{
@@ -53,9 +58,29 @@ body{
 #section{
     display: flex;
     height: 100vh;
-    padding: 10px;
+    padding: 15px;
 }
 #section .box-1, .box-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     background: #60992d;
     color: #fff;
+}
+#section .box-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background: #eee;
+    color: #002400;
+}
+#section p{
+    margin: 20px;
+    padding: 10px 20px 0;
+    line-height: 1.2;
+}
+#section p::first-letter{
+    font-size: 200%;
 }
